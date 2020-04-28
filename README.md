@@ -16,3 +16,12 @@ copies or substantial portions of the Software."
 This means that if you plan to sell our project please keep the copyright notice and copy of original license.
 
 Project is made open source and free for all. We cant prohibit reselling of our project but if you do please follow the licensing terms.
+
+# Preview Photos
+
+#### Lower part of main page
+![Preview image 1](/img/preview/previewimage1.png?raw=true "Lower part of main page") 
+#### About page
+![Preview image 2](/img/preview/previewimage2.png?raw=true "About page") 
+#### Contact Us Page
+![Preview image 3](/img/preview/previewimage3.png?raw=true "Contact us") 
