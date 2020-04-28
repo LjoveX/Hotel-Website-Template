@@ -19,6 +19,8 @@ Project is made open source and free for all. We cant prohibit reselling of our 
 
 # Preview Photos
 
+#### Live preview link: https://hungry-lovelace-dd978e.netlify.app/
+
 #### Lower part of main page
 ![Preview image 1](/img/preview/previewimage1.png?raw=true "Lower part of main page") 
 #### About page
