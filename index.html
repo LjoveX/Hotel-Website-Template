@@ -83,6 +83,23 @@
               Contact us or check the informations to know more about us.
             </p>
             <a class="btn" href="about.html">About our hotel</a>
+            <!-- Check Availability -->
+            <div class="availability" id="available">
+              <h3>Check Availability</h3>
+              <label for="date">Start Date: </label>
+              <input type="date" id="date" class="btn" />
+              <label for="end">Start Date: </label>
+              <input type="date" id="end" class="btn" />
+              <label for="person">People</label>
+              <select name="person" id="person" class="btn">
+                <option value="1">1 person</option>
+                <option value="2">2 people</option>
+                <option value="3">3 people</option>
+                <option value="4">4 people</option>
+                <option value="5">5 people</option>
+              </select>
+              <a href="" class="btn">Check Availability</a>
+            </div>
           </div>
         </div>
       </div>
@@ -104,11 +121,99 @@
         <a href="about.html" class="btn btn-light">Read More</a>
       </div>
     </section>
+    <!-- Explore Rooms -->
+    <section class="explore-rooms">
+      <h1 class="title">Do you want to explore our rooms?</h1>
+      <div id="rooms">
+        <!-- Room 1  -->
+        <div class="room" id="room-1">
+          <a href=""
+            ><img
+              src="img/point3d-commercial-imaging-ltd-oxeCZrodz78-unsplash.jpg"
+              alt=""
+            />
+            <div class="image-overlay">
+              <h3>The Visionary</h3>
+              <p>
+                Do you need inspiration for your next book? Or it will be a
+                musical album? Discover it, and let your thoughts flow with this
+                awesome view!
+              </p>
+            </div>
+          </a>
+        </div>
+        <!-- Room 2 -->
+        <div class="room" id="room-2">
+          <a href=""
+            ><img src="img/ralph-ravi-kayden-zSG-kd-L6vw-unsplash.jpg" alt="" />
+            <div class="image-overlay">
+              <h3>Presidential Suite</h3>
+              <p>
+                The Presidential Suite is made for the man who don't accept
+                compromises.
+              </p>
+            </div>
+          </a>
+        </div>
+        <!-- Room 3  -->
+        <div class="room" id="room-3">
+          <a href=""
+            ><img src="img/kam-idris-kyt0PkBSCNQ-unsplash.jpg" alt="" />
+            <div class="image-overlay">
+              <h3>The Deluxe One</h3>
+              <p>
+                The favourite of all the visitors. A cozy room with an
+                astonishing bathroom with jacuzzi. Perfect for couples in
+                honeymoon.
+              </p>
+            </div>
+          </a>
+        </div>
+        <!-- Room 4 -->
+        <div class="room" id="room-4">
+          <a href=""
+            ><img src="img/adam-winger-VGs8z60yT2c-unsplash.jpg" alt="" />
+            <div class="image-overlay">
+              <h3>The Nina</h3>
+              <p>
+                Created for travelers, the Nina will satisfy all your
+                necessities, with an eye of regard for your wallet!
+              </p>
+            </div>
+          </a>
+        </div>
+        <!-- Room 5  -->
+        <div class="room" id="room-5">
+          <a href=""
+            ><img src="img/alexander-kaunas-67-sOi7mVIk-unsplash.jpg" alt="" />
+            <div class="image-overlay">
+              <h3>The Pinta</h3>
+              <p>
+                Created for travelers, the Pinta will satisfy all your
+                necessities, with an eye of regard for your wallet!
+              </p>
+            </div>
+          </a>
+        </div>
+        <!-- Room 6 -->
+        <div class="room" id="room-6">
+          <a href=""
+            ><img src="img/isaac-quesada-xc4oxgAbDmw-unsplash.jpg" alt="" />
+            <div class="image-overlay">
+              <h3>The Saint Maria</h3>
+              <p>
+                Created for travelers, the Saint Maria will satisfy all your
+                necessities, with an eye of regard for your wallet!
+              </p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
     <!-- Features Offered -->
-    <h1 id="offer">What can we offer to you?</h1>
+    <h1 class="title">What can we offer to you?</h1>
     <section id="features">
-      <div class="box bg-light">
-        <i class="fas fa-hotel fa-3x"></i>
+      <div class="box bg-light" id="location">
         <h3>Great Location</h3>
         <p>
           It is in the city center, between Hyde Park and Buckingham Palace, you
@@ -116,8 +221,7 @@
           possibilities, from LIDL to Waitrose!
         </p>
       </div>
-      <div class="box bg-primary">
-        <i class="fas fa-utensils fa-3x"></i>
+      <div class="box bg-primary" id="meals">
         <h3>Free Meals</h3>
         <p>
           You can buy the food for yourself and cook it if you want... but why
@@ -126,8 +230,7 @@
           experience!
         </p>
       </div>
-      <div class="box bg-light">
-        <i class="fas fa-dumbbell fa-3x"></i>
+      <div class="box bg-light" id="gym">
         <h3>Gym</h3>
         <p>
           Here at KBT we offer a gym full of fitness equipment at a price of...
@@ -137,9 +240,9 @@
       </div>
     </section>
     <!-- Where you can find us? -->
-    <h1 id="maps">
-      Here's the address of the hotel! We told you, it's in the center!
-    </h1>
+
+    <!-- Map -->
+    <h1 id="maps">Where you can find us?</h1>
     <div class="mapouter">
       <div class="gmap_canvas">
         <iframe
@@ -157,12 +260,76 @@
           >how to insert google map into website</a
         >
       </div>
-      <h3>Address: GW56+5W Londra, Regno Unito</h3>
-      <p>
-        Advice: Use the District Line or Circle line and leave the tube at Tower
-        Hill station. The hotel is 50mt from there
-      </p>
+      <!-- Right Section -->
+      <section id="useful-informations">
+        <h3>Address: GW56+5W Londra, Regno Unito</h3>
+        <p>
+          Advice: Use the District Line or Circle line and leave the tube at
+          Tower Hill station. The hotel is 50mt from there.
+        </p>
+        <!-- Interesting Things To Do -->
+        <div id="things-to-do">
+          <h3>Interesting things to do in this zone</h3>
+          <ul>
+            <li>Try Out A Different Local Coffee Shop Each Day (5-15 min)</li>
+            <li>Drink the Bermondsey Beer Mile (10-15 min)</li>
+            <li>Stop by Hays Galleria (less than 10 min)</li>
+            <li>Enjoy a Pint in the Shadow of Monument (about 15 min)</li>
+            <li>Pop into Old Spitalfields Market (about 25 min)</li>
+          </ul>
+        </div>
+      </section>
     </div>
-    <footer id="main-footer"></footer>
+
+    <!-- Video Description -->
+    <div id="image-video">
+      <img src="./img/migliori_hotel_di_lusso_mondo_4e5ce732d8.jpg" alt="" />
+      <a class="btn" href="https://www.youtube.com/watch?v=qCIwvgLk0lg"
+        >Play Video</a
+      >
+    </div>
+
+    <!-- Footer -->
+    <footer id="main-footer">
+      <img
+        src="./img/—Pngtree—picasso style abstract line painting_6183542(1).png"
+        alt=""
+      />
+      <ul>
+        <h3>Hotel Informations</h3>
+        <li>Contact</li>
+        <li>Informations</li>
+        <li>About Us</li>
+        <li>Work With Us</li>
+        <li>Volunteer</li>
+      </ul>
+      <ul>
+        <h3>Terms & Conditions</h3>
+        <li>Privacy Policy</li>
+        <li>Booking And Cancellations</li>
+        <li>Website Terms</li>
+      </ul>
+      <ul>
+        <h3>Other Information</h3>
+        <li>Cleaning Policy</li>
+        <li>Ingredients of our plates</li>
+        <li>Home Lifestyle</li>
+        <li>Awards</li>
+      </ul>
+      <ul>
+        <h3>Other Information</h3>
+        <li>Cleaning Policy</li>
+        <li>Ingredients of our plates</li>
+        <li>Home Lifestyle</li>
+        <li>Awards</li>
+      </ul>
+    </footer>
+
+    <!-- JS Part -->
+    <script src="node_modules/sticky-js/dist/sticky.min.js"></script>
+    <script>
+      var sticky = new Sticky(".availability");
+      sticky.update();
+    </script>
   </body>
 </html>
