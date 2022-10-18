@@ -26,7 +26,8 @@ h3 {
 p,
 label,
 span,
-li {
+li,
+::placeholder {
   margin: 10px 0;
   font-family: "Merriweather", serif;
 }
@@ -317,6 +318,18 @@ label {
 }
 
 /*Contact*/
+#contact-form h1 {
+  text-align: center;
+}
+
+#contact-form p,
+#contact-form label {
+  color: #ddd;
+  text-align: center;
+}
+#contact-form form {
+  margin-inline: 30rem;
+}
 
 #contact-form .form-group {
   margin-bottom: 20px;
@@ -329,19 +342,19 @@ label {
 #contact-form input,
 #contact-form textarea {
   width: 100%;
-  padding: 10px;
+  padding: 1rem;
   border: 1px #ddd slod;
 }
 
-#contact-form textarea {
-  height: 200px;
-}
 #contact-form input:focus,
 #contact-form textarea:focus {
   outline: none;
   border-color: #f7c08a;
 }
 
+#contact-info {
+  display: flex;
+}
 /*Where you can find us?*/
 .mapouter {
   position: relative;
