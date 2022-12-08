@@ -1,4 +1,14 @@
-# Hotel-Website-Template
+# Hotel-Website-Template fork
+
+Thing Improved:
+
+- Created New Logo
+- Used few animation
+- Improved section to make them modern and useful
+
+Next:
+
+- I will imrove mobile adaptation
 
 Free to use website template,created from scratch using HTML and CSS
 
@@ -8,6 +18,7 @@ Free to use website template,created from scratch using HTML and CSS
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=plastic)](https://raw.githubusercontent.com/LjoveX/Hotel-Website-Template/master/LICENSE)
 
 # Note:
+
 Project is licensed under the MIT license
 
 "The above copyright notice and this permission notice shall be included in all
@@ -22,8 +33,13 @@ Project is made open source and free for all. We cant prohibit reselling of our 
 #### Live preview link: https://hungry-lovelace-dd978e.netlify.app/
 
 #### Lower part of main page
-![Preview image 1](/img/preview/previewimage1.png?raw=true "Lower part of main page") 
+
+![Preview image 1](/img/preview/previewimage1.png?raw=true "Lower part of main page")
+
 #### About page
-![Preview image 2](/img/preview/previewimage2.png?raw=true "About page") 
+
+![Preview image 2](/img/preview/previewimage2.png?raw=true "About page")
+
 #### Contact Us Page
-![Preview image 3](/img/preview/previewimage3.png?raw=true "Contact us") 
+
+![Preview image 3](/img/preview/previewimage3.png?raw=true "Contact us")

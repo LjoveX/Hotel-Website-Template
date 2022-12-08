@@ -1,70 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="description" content="Dobro dosli u najbolji kafic na svetu">
-    <meta name="keywords" content="Kafic">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Hotel BT - Contact Us</title>
-</head>
-<body>
+  <head>
+    <!-- Designed by:LjoveX
+             It is 100% free to use-->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="description" content="Dobro dosli u najbolji kafic na svetu" />
+    <meta name="keywords" content="Kafic" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+      integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="favicon_package_v0.16/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="favicon_package_v0.16/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="favicon_package_v0.16/favicon-16x16.png"
+    />
+    <link rel="manifest" href="favicon_package_v0.16/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="favicon_package_v0.16/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <title>Welcome to KBT Hotel!</title>
+  </head>
+
+  <body>
     <header>
-        <nav id="navbar">
+      <nav id="navbar">
         <div class="container">
-                <h1 class="logo"><a href="index.html">KBT</a></h1>
-                <ul>
-                    <li><a  href="index.html">Home</a></li>
-                    <li><a href="about.html">About Us</a></li>
-                    <li><a class="current" href="contact.html">Contact Us</a></li>
-                </ul>
-              </div>
-            </nav>  
+          <div id="logo">
+            <a href="index.html"
+              ><img
+                src="img/—Pngtree—picasso style abstract line painting_6183542(1).png"
+                alt=""
+            /></a>
+          </div>
+          <ul id="menu-options">
+            <li><a class="current" href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+      </nav>
     </header>
 
-     <section id="contact-form" class="py-3">
-         <div class="container">
-            <h1 class="l-heading"><span class="text-primary">Contact </span> Us</h1>
-            <p>Please fill in all spots so you can contact us</p>
-            <form action="process.php">
-                <div class="form-group">
-                   <laber for="name">Name</laber>
-                   <input type="text" name="Name" id="Name">
-                </div>
-                <div class="form-group">
-                   <laber for="email">Email</laber>
-                   <input type="email" name="email" id="email">
-                </div>
-                <div class="form-group">
-                   <laber for="message">Message</laber>
-                   <textarea type="email" name="message" id="message"></textarea>
-                </div>
-                <button type="submit" class="btn">Submit</button>
-            </form>
-         </div>
-     </section>
-     <section id="contact-info" class="bg-dark">
-         <div class="container">
-            <div class="box ">
-                <i class="fas fa-hotel fa-3x"></i>
-                   <h3> Location</h3>
-                   <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
-               </div>
-               <div class="box">
-                <i class="fas fa-phone fa-3x"></i>
-                <h3>Telefone Number</h3>
-                <p>(+381)-55-555-5555</p>
-               </div>
-               <div class="box ">
-                <i class="fas fa-envelope fa-3x"></i>
-                <h3>Email Address</h3>
-                <p>fakeemailadresa@gmail></p>
-               </div>
-         </div>
-
-     </section>
- 
-</body>
+    <section id="contact-form" class="py-3">
+      <div class="container">
+        <h1 class="l-heading"><span class="text-primary">Contact </span> Us</h1>
+        <p>Please fill in all spots so you can contact us</p>
+        <form action="process.php">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" name="Name" id="Name" placeholder="Your Name" />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Your Email"
+            />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea
+              type="email"
+              name="message"
+              id="message"
+              placeholder="Write here your message..."
+            ></textarea>
+          </div>
+          <button type="submit" class="btn">Submit</button>
+        </form>
+      </div>
+    </section>
+    <section id="contact-info" class="bg-dark">
+      <div class="container">
+        <div class="box">
+          <i class="fas fa-hotel fa-3x"></i>
+          <h3>Location</h3>
+          <p>1 London Bridge, London SE1 9BG</p>
+        </div>
+        <div class="box">
+          <i class="fas fa-phone fa-3x"></i>
+          <h3>Telefone Number</h3>
+          <p>(+381)-55-555-5555</p>
+        </div>
+        <div class="box">
+          <i class="fas fa-envelope fa-3x"></i>
+          <h3>Email Address</h3>
+          <p>fakeemailadresa@gmail></p>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
